@@ -11,7 +11,7 @@ class ValidationExample extends Component
 {
     public Collection $references;
 
-    protected $attributes = [
+    protected $validationAttributes = [
         'references.*.email' => 'email',
         'references.*.name' => 'reference name',
     ];
